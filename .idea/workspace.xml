@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="267b29c6-92ff-42d3-a36b-2e5b98d86ee4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/image/1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/5.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/photoGallery.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/photoGallery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/NEU.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/UCLA.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/education.html" beforeDir="false" afterPath="$PROJECT_DIR$/education.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/experience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600711513029</updated>
-      <workItem from="1600711514985" duration="21541000" />
+      <workItem from="1600711514985" duration="24060000" />
     </task>
     <servers />
   </component>
@@ -77,9 +73,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="304" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1600895797525">
-      <screen x="0" y="23" width="1680" height="956" />
+    <state x="304" y="157" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601500961943">
+      <screen x="0" y="23" width="1680" height="944" />
     </state>
+    <state x="304" y="157" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.23.1920.1057/0.23.1680.944@0.23.1680.944" timestamp="1601500961943" />
     <state x="304" y="158" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.23.1920.1057/0.23.1680.949@0.23.1680.949" timestamp="1600723014783" />
     <state x="304" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1680.956@0.23.1680.956" timestamp="1600895797525" />
     <state x="434" y="99" key="CommitChangelistDialog2" timestamp="1600897779994">
