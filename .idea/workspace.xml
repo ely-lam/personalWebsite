@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="267b29c6-92ff-42d3-a36b-2e5b98d86ee4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/puffy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image/texas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/5.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/photoGallery.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/photoGallery.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +21,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -64,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1600711513029</updated>
-      <workItem from="1600711514985" duration="15981000" />
+      <workItem from="1600711514985" duration="21541000" />
     </task>
     <servers />
   </component>

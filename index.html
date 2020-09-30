@@ -5,6 +5,8 @@
     <title>Rujun Yao Home Page</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="src/main.css">
+    <link rel="stylesheet" href="src/photoGallery.css">
+    <script src="src/photoGallery.js"></script>
 </head>
 <body>
 <header class="header">
@@ -82,23 +84,34 @@
             </div>
         </div>
     </div>
+<!--    <div class="main-container">-->
+<!--        <h1>My Hobbies</h1>-->
+<!--        <div>-->
+<!--            <div class="square">-->
+<!--                <img class="square-pic" src="image/texas.png" alt="main" width="200px" height="200px">-->
+<!--            </div>-->
+<!--            <ul class="hobby-list">-->
+<!--                <li>I love playing Texas Hold'em Poker</li>-->
+<!--                <li>I love listening Electrical Dance Music and I sometimes go to rave or clubs to enjoy them</li>-->
+<!--                <li>I know how to play piano and I sometimes play them for fun</li>-->
+<!--                <li>I love singing. Recently I am practising singing rap song. I have written two rap songs that-->
+<!--                show the current situation of the United States and expressing my willing to move forward even under-->
+<!--                such a bad situation</li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--    </div>-->
     <div class="main-container">
-        <h1>My Hobbies</h1>
-        <div>
-            <div class="square">
-                <img class="square-pic" src="image/texas.png" alt="main" width="200px" height="200px">
-            </div>
-            <ul class="hobby-list">
-                <li>I love playing Texas Hold'em Poker</li>
-                <li>I love listening Electrical Dance Music and I sometimes go to rave or clubs to enjoy them</li>
-                <li>I know how to play piano and I sometimes play them for fun</li>
-                <li>I love singing. Recently I am practising singing rap song. I have written two rap songs that
-                show the current situation of the United States and expressing my willing to move forward even under
-                such a bad situation</li>
-            </ul>
-        </div>
+        <h1>Photo Gallery</h1>
     </div>
+    <div class="slideshow-container">
 
+        <div id="slide-div"></div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <div id="img-selector"></div>
 
 </section>
 
@@ -111,6 +124,11 @@
         <li><a href="https://www.linkedin.com/in/rujun-yao-59b535179/">LinkedIn Profile</a></li>
     </ul>
 </footer>
-
+<script>
+    loadPic();
+    showSlides(1) ;
+</script>
 </body>
 </html>
+
+<!-- do not include the node_modules in the github repository, using mit license. -->
