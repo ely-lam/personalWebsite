@@ -107,15 +107,14 @@ a:hover {
     color: var(--text-color);
 }
 
-.main-container {
+.main-container, .main-container-2 {
     padding-top: 30px;
     margin-left: 200px;
     margin-right: 200px;
 }
 
 
-
-.main-container > h1 {
+.main-container > h2 {
     font-size: 2em;
     text-align: center;
     padding-top: 20px;
@@ -133,7 +132,7 @@ a:hover {
     width: 1000px;
 }
 
-.main-container-2 > h1 {
+.main-container-2 > h2 {
     font-size: 2em;
     text-align: center;
     padding-top: 20px;
