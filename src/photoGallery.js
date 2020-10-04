@@ -1,4 +1,4 @@
-const numPic = 5;
+const numPic = 9;
 
 function loadPic() {
     const target = document.querySelector("#slide-div");
