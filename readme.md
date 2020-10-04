@@ -12,7 +12,7 @@ specific criteria. <br><br><a href="https://johnguerra.co/classes/webDevelopment
 
 </p>
 <h3>Screen shot</h3>
-<img src="screenshots/1.png" alt="screenshot">
+<img src="screenshots/2.png" alt="screenshot">
 <h3>Build instruction</h3>
 <p>This page does not contains any libraries except es-lint. In order to get the library, simply clone the code
 and run npm --install. </p>
