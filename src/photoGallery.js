@@ -1,8 +1,10 @@
+const numPic = 5;
+
 function loadPic() {
     const target = document.querySelector("#slide-div");
     const selectorTarget = document.querySelector("#img-selector");
 
-    for (let i of [1, 2, 3, 4, 5]) {
+    for (let i = 1; i <= numPic; i++) {
         const picDiv = document.createElement("div");
         picDiv.setAttribute("class", "mySlides");
         picDiv.innerHTML = "<div class='number-text'>" + i.toString() + "</div>" +
