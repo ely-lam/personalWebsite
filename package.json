@@ -1,0 +1,24 @@
+{
+  "name": "personalwebsite",
+  "version": "1.0.0",
+  "description": "This is the personal website of the author. The auther preserves all rights for the contents displayed.",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.10.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pandalv9999/personalWebsite.git"
+  },
+  "author": "Rujun Yao",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pandalv9999/personalWebsite/issues"
+  },
+  "homepage": "https://github.com/pandalv9999/personalWebsite#readme"
+}

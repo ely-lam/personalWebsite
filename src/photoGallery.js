@@ -2,10 +2,10 @@ function loadPic() {
     const target = document.querySelector("#slide-div");
     const selectorTarget = document.querySelector("#img-selector");
 
-    for (let i of [1,2,3,4,5]) {
+    for (let i of [1, 2, 3, 4, 5]) {
         const picDiv = document.createElement("div");
         picDiv.setAttribute("class", "mySlides");
-        picDiv.innerHTML = "<div class='number-text'>" + i.toString() +"</div>" +
+        picDiv.innerHTML = "<div class='number-text'>" + i.toString() + "</div>" +
             "<img src='./image/" + i.toString() + ".jpeg' style='width:100%' alt='picture " + i.toString() + "'/>" +
             "<div class='text'>Picture " + i.toString() + "</div>";
         target.appendChild(picDiv);
@@ -34,14 +34,18 @@ function showSlides(n) {
     var i;
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
+    if (n > slides.length) {
+        slideIndex = 1
+    }
+    if (n < 1) {
+        slideIndex = slides.length
+    }
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
-    slides[slideIndex-1].style.display = "block";
-    dots[slideIndex-1].className += " active";
+    slides[slideIndex - 1].style.display = "block";
+    dots[slideIndex - 1].className += " active";
 }
