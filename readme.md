@@ -8,6 +8,8 @@ University and the instructor of the course also preserves any rights for the co
 developed in order to practice writing pages with HTML/CSS and minor JavaScript. The pages will be graded based on 
 specific criteria. <br><br><a href="https://johnguerra.co/classes/webDevelopment_fall_2020/">Course Link </a>
 <br><a href="http://rujunyao.com/">Website Link</a>
+<br><a href="https://youtu.be/BbIGwdDf9Ag">Demo video Link</a>
+
 </p>
 <h3>Screen shot</h3>
 <img src="screenshots/1.png" alt="screenshot">
