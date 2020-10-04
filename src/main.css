@@ -27,6 +27,10 @@ ul {
     color: var(--decor-color);
 }
 
+.icon {
+    color : var(--selection-color)
+}
+
 
 /*
 styling of the hyperlinks
@@ -39,7 +43,7 @@ a {
 }
 
 a:hover {
-    color: var(--selection-color)l
+    color: var(--selection-color);
 }
 
 .header {
@@ -90,6 +94,7 @@ a:hover {
 
 .header-nav > li:hover, .current-selection {
     background-color : var(--main-color);
+    transform: scale(1.1) ;
 }
 
 .avatar {
@@ -185,5 +190,7 @@ a:hover {
 .foot-info > li {
     margin-left: 75px;
     margin-right: 75px;
+    font-size: 0.8em;
+    font-weight: initial;
 }
 
