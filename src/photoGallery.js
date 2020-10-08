@@ -51,6 +51,8 @@ function showSlides(n) {
     for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
     }
+// When I inspect this element, it throws and error saying "Uncaught TypeError: Cannot read property 'style' of undefined"
+// This doesn't seem to affect the look on your webpage, but it might mean that it's not producing the result you expected.
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 }
