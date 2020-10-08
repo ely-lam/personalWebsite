@@ -1,3 +1,5 @@
+/* I would make a separate js folder for Javascript files so it's not included with css files. */
+
 const numPic = 9;
 
 function loadPic() {
@@ -7,6 +9,7 @@ function loadPic() {
     for (let i = 1; i <= numPic; i++) {
         const picDiv = document.createElement("div");
         picDiv.setAttribute("class", "mySlides");
+// It may be better to give the pictures specific names/descriptions rather than "Picture 1", but it's great that you have a caption at all
         picDiv.innerHTML = "<div class='number-text'>" + i.toString() + "</div>" +
             "<img src='./image/" + i.toString() + ".jpeg' style='width:100%' alt='picture " + i.toString() + "'/>" +
             "<div class='text'>Picture " + i.toString() + "</div>";
